@@ -1,0 +1,92 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #a1140aea;
+    padding:0;
+    width: 100%;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bolder;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:#f16a0f;
+  }
+
+header {
+    padding: 0px;
+}
+body {
+    background-color: #ffffcc;
+}
+
+h1{
+    text-align: center;
+    color: black(139, 5, 5);
+    font-size:2.5em;
+    font-family: "楷体";
+    font-weight: bolder;
+}
+
+h2{
+    text-align:left;
+    margin-left: 40px;
+    color: black;
+    font-size:1.6em;
+    font-family: "楷体";
+}
+
+p{
+    text-align:justify;
+    margin-left: 60px;
+    margin-right: 60px;
+    color: black;
+    font-size:1.4em;
+    font-family: "楷体";
+}
+
+#nav {
+    width:45%;
+    float:left;
+    padding-left:5%; 
+    text-align:justify;
+    padding-top: 5px;
+}
+
+#section{
+    width: 10%;;
+    float:right;
+    padding-right: 40%;
+    padding-top: 0px;
+    align-content: center;
+}
+
+#buttons{
+    width:45%;
+    float:left;
+    padding-left:5%; 
+    text-align:justify;
+    padding-top: 0px;
+}
+
+footer{
+  background-color: brown;
+  color: white;
+  font-weight:bolder;
+  font-family: "楷体";
+  text-align: center;
+  padding: 10px;
+}
+
